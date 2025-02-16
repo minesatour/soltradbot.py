@@ -1,0 +1,18 @@
+# Ignore Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore environment files
+.env
+.envrc
+venv/
+*.log
+
+# Ignore API keys (IMPORTANT)
+config.json
+secrets.json
+
+# Ignore system files (Mac/Windows)
+.DS_Store
+Thumbs.db
